@@ -174,7 +174,6 @@ skal returnere:
 
 //cleans string arrays into string
 function grammarNanny (strArr) {
-    let result = [];
     for( w in strArr) {
 	strArr[w] = strArr[w].trim().toLowerCase();//remove space, all letters smal	
     }
