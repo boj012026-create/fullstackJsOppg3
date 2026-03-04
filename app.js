@@ -178,7 +178,7 @@ function grammarNanny (strArr) {
     for( w of strArr) {
 	result.push(w.trim().toLowerCase());//remove space, all letters smal	
     }
-    return result.join(" ");//returns string array as a string
+    return result.join(" ");//returns result array as a string
     //return strArr.map(w => w.trim()).join(" ").toLowerCase();
 }
 
